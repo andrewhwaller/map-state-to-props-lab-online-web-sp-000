@@ -6,7 +6,7 @@ import { createStore } from 'react-redux'
 import manageUsers from './reducers/manageUsers'
 
 
-// add imports and code
+let store = createStore(manageUsers, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 
 
 ReactDOM.render(
