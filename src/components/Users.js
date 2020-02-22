@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// add any needed imports here
+import { connect } from 'react-redux'
 class Users extends Component {
 
   render() {
