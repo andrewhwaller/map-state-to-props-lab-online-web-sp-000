@@ -10,9 +10,8 @@ let store = createStore(manageUsers, window.__REDUX_DEVTOOLS_EXTENSION__ && wind
 
 
 ReactDOM.render(
-  // add imports and code
-  <App />
-  // add imports and code
-  ,
+  <Provider store={store}>
+    <App />
+  </Provider>,
   document.getElementById('root')
 );
